@@ -3,18 +3,18 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('', inputValidation.main),
-    path('second', inputValidation.second_in),
-    path('host', inputValidation.host),
-    path('state', inputValidation.state),
-    path('namesubject', inputValidation.namesubject),
-    path('port', inputValidation.port),
-    path('email', inputValidation.email),
-    path('bodymsg', inputValidation.bodymsg),
-    path('command', inputValidation.command),
-    path('count', inputValidation.count),
-    path('unit', inputValidation.unit),
-    path('timespec', inputValidation.timespec),
-    path('repo', inputValidation.repo),
-    path('dest', inputValidation.dest)
+    path('', main),
+    path('second/', second_in),
+    path('host/', host),
+    path('state/', state),
+    path('namesubject/', namesubject),
+    path('port/', port),
+    path('email/', email),
+    path('bodymsg/', bodymsg),
+    path('command/', command),
+    path('count/', count),
+    path('unit/', unit),
+    path('timespec/', timespec),
+    path('repo/', repo),
+    path('dest/', dest)
 ]

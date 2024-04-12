@@ -22,6 +22,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('Inventory/', include('inventory.urls')),
     path('EC2/', include('EC2.urls')),
+    path('input_valid/', include('input_valid.urls')),
 ]
 
 
